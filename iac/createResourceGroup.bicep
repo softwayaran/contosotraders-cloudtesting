@@ -14,7 +14,7 @@ param rgName string
 param suffix string
 
 @description('Set default rg location to East US.')
-param rgLocation string = '@lab.CloudResourceGroup(LocationRG).Location'
+param rgLocation string = 'westeurope'
 
 // variables
 ////////////////////////////////////////////////////////////////////////////////
